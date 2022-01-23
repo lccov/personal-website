@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Walter Turncoat
+- Font Author: Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/walterturncoat/v13/snfys0Gs98ln43n0d-14ULoToe67YB2dQ5ZPqQ.ttf
+- Font License: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html))

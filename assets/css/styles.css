@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables - used to reduce redundancy and repetition*/
+:root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #4756df;
+    --secondary-color: #ff7235;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+/* Variables end*/
+
+/* smoothly scrolls to sections on page*/
+html {
+    scroll-behavior: smooth;
+}
+
+/* CSS Resets - used to reduce browser inconsistencies*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* no markers beside list items*/
+ul {
+    list-style-type: none;
+}
+
+/* no decoration for links */
+/* color of link set to root variable */
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* color of link hover set to root variable */
+a:hover {
+    color: var(--secondary-color);
+}
+
+/* color of body set to root variable */
+body {
+    font-family: var(--font-family);
+}
