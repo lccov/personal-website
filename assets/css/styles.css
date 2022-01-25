@@ -97,6 +97,7 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
+/* Styling for burger menu */
 .burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
@@ -104,4 +105,61 @@ nav ul li {
     background-color: transparent;
     cursor: pointer;
     display: none;
+}
+
+/* Styling for me section */
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+/* set height and width of illustration */
+.me img {
+    height: 37.5 rem;
+    width: 37.5rem;
+}
+
+/* Styling for bio div */
+.bio {
+    width: 25 rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+/* sets About Me in bio's bottom margin to root variable */
+.bio h1 {
+    margin-bottom: var(--bottom-margin);
+}
+
+/* sets paragraph in bio's line height to root variable */
+/* sets paragraph's top/bottom padding to 0.3rem and left/right padding to 0*/
+.bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+}
+
+/* sets More About Me Section background color to root variable */
+/* sets section's top/bottom padding to 1rem and left/right padding to 6rem*/
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+/* sets More About Me Section bottom margin to root variable */
+/* aligns text to center */
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+/* sets paragraph in More About Me's line height to root variable */
+/* sets paragraph padding to 0.4rem */
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
 }
