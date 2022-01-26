@@ -163,3 +163,38 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.4rem;
 }
+
+/* Styling for skills section */
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* sets skill-header's margin bottom to 1rem */
+.skill-header {
+    margin-bottom: 1rem;
+}
+
+/* sets skill-wrapper padding to 1.25rem */
+.skill-wrapper img {
+    padding: 1.25rem;
+}
+
+/* Styling for skill cards */
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px black;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
