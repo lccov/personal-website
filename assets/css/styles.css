@@ -198,3 +198,19 @@ footer {
     text-align: center;
     margin: 2rem 0 0;
 }
+
+/* Styling for social section */
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+/* Styling for icons */
+.socicon {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.5px;
+}
