@@ -8,9 +8,8 @@
     --bolder-font: 900;
     --bg-color: #fcfcfc;
     --primary-color: #1929b4;
-    --secondary-color: #ff7235;
+    --secondary-color: #b00b69;
     --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -186,7 +185,7 @@ nav ul li {
 .icon-card {
     background-color: #fff;
     border-radius: 11px;
-    box-shadow: 0 3px 10px black;
+    box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
 }
@@ -232,7 +231,7 @@ footer {
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px black;
+    box-shadow: 0 3px 10px var(--primary-shadow);
 }
 
 /* Styling for labels in contact-form-container div */
@@ -246,6 +245,7 @@ footer {
 .contact-form-container textarea {
     min-height: 6.25rem;
     font-size: 14px;
+    font-family: var(--font-family);
 }
 
 /* Styling for input-field class in contact-form-container div */
@@ -439,7 +439,7 @@ footer {
 /* Changes reflects on screen with width of 420px and below */
 @media screen and (max-width: 420px) {
         
-    .hero img {
+    .me img {
         height: 37.5rem;
         width: 23rem;
     }

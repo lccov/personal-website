@@ -238,6 +238,8 @@
               id="name"
               name="sender-name"
               placeholder="Enter Your Name"
+              onblur="blurFunction(this.id)"
+              onfocus="focusFunction(this.id)"
               class="input-field"
               required
               > 
@@ -250,6 +252,8 @@
               id="email"
               name="sender-email"
               placeholder="Enter Your Email"
+              onfocus="focusFunction(this.id)"
+              onblur="blurFunction(this.id)"
               class="input-field"
               required
               > 
@@ -262,7 +266,9 @@
               cols="60"
               rows="10"
               placeholder="Enter Your Message"
-              name="message"
+              onfocus="focusFunction(this.id)"
+              onblur="blurFunction(this.id)"
+              name="sender-message"
               class="input-field"
               required
               ></textarea>

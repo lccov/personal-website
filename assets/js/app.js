@@ -31,3 +31,28 @@ navLink.forEach((link) =>
             ul.classList.remove("show");
         })
     );
+
+// onfocus and onblur functions for form
+
+const namePlaceholder = document.getElementById('name').getAttribute('placeholder')
+const emailPlaceholder = document.getElementById('email').getAttribute('placeholder')
+const messagePlaceholder = document.getElementById('message').getAttribute('placeholder')
+
+function focusFunction (id) {
+        id = document.getElementById(id)
+        id.placeholder = ''
+}
+
+function blurFunction (id) {
+
+    id = document.getElementById(id)
+
+    if (id.value == '' && id.name == 'sender-name') {
+        id.placeholder = namePlaceholder
+    } else if (id.value == '' && id.name == 'sender-email') {
+        id.placeholder = emailPlaceholder
+    } else if (id.value == '' && id.name == 'sender-message') {
+        id.placeholder = messagePlaceholder
+    }
+    
+}
