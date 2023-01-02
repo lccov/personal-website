@@ -251,6 +251,7 @@ footer {
 /* Styling for input-field class in contact-form-container div */
 .contact-form-container .input-field {
     width: 100%;
+    padding: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
@@ -355,6 +356,10 @@ footer {
 .up-arrow {
     width: 3rem;
     height: 3rem;
+}
+
+.form-input {
+    padding: 1%;
 }
 
 /* Changes reflects on screen with width of 720px and below */
