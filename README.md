@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Live]()
+- [Live](http://lccovington.me)
 
 ## Screenshots
 
