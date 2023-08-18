@@ -20,5 +20,5 @@
 
 **Lacie Covington**
 
-- [Profile](https://www.linkedin.com/in/lccovington/)
+- [Profile](https://www.linkedin.com/in/lccov/)
 - [Email](mailto:lacie.covington@gmail.com?subject=Hi "Hi!")
