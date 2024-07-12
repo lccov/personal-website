@@ -2,10 +2,6 @@
 
 <p align="center"> An old personal website created using HTML, CSS, and vanilla Javascript</p>
 
-## Links
-
-- [Live](http://lccovington.me)
-
 ## Screenshots
 
 ![](/screenshot.png)
